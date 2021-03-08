@@ -1,1 +1,2 @@
-self.assertEqual(FizzBuzz.FizzBuzz(3), "fizz")
+lif i % 3 == 0:
+        #     return a
