@@ -1,0 +1,1 @@
+self.assertEqual(FizzBuzz.FizzBuzz(3), "fizz")
