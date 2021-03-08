@@ -1,9 +1,13 @@
 
-def FizzBuzz(i):
-    a = "Fizz"
-    b = "Buzz"
-    c = a + b
-    for i in range(1,101):
+def FizzBuzz(n):
+    result = []
+    for i in range(1, n+1):
         if i % 3 == 0:
-            return a
+            result.append('fizz')
+        elif i % 5 == 0:
+            result.append('buzz')
+        else:
+            result.append(str(i))
+    return result
+
 
